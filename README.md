@@ -32,14 +32,14 @@ Final high-resolution(Pesudo) colorized output is generated.
 
 ## DATASET
 
-Source: Landsat 9 (Thermal Infrared & RGB bands)
-Region: Indian Subcontinent
-Processing: Image tiling, normalization, alignment
+Source: Landsat 9 (Thermal Infrared & RGB bands).
+Region: Indian Subcontinent.
+Processing: Image tiling, normalization, alignment.
 
 ## TECHNOLOGIES USED 
 
-Language: Python
-Framework: PyTorch
-Libraries: NumPy, OpenCV, Matplotlib
-Platform: Kaggle
-Version Control: GitHub
+Language: Python.
+Framework: PyTorch.
+Libraries: NumPy, OpenCV, Matplotlib.
+Platform: Kaggle.
+Version Control: GitHub.
