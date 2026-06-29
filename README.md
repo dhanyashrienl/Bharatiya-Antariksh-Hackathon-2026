@@ -5,24 +5,24 @@ PROBLEM STATEMENT 10 - IR Satellite Image Super-Resolution & Colorization Pipeli
 
 Infrared (IR) satellite images are crucial for night-time and all-weather observation.
 However, IR images are:<br>
-     - Low in spatial resolution.<br>
-     - Monochrome in nature.<br>
-     - Difficult to interpret visually.<br>
+     > Low in spatial resolution.<br>
+     > Monochrome in nature.<br>
+     > Difficult to interpret visually.<br>
 This limits their effectiveness in applications such as urban monitoring, disaster management, and defense surveillance.
 
 ## PROPOSED SOLUTION
 
 This project presents a unified deep learning pipeline that:<br>
-     - Enhances infrared satellite images using super-resolution.<br>
-     - Converts enhanced IR images into realistic RGB colorized outputs.<br>
+     > Enhances infrared satellite images using super-resolution.<br>
+     > Converts enhanced IR images into realistic RGB colorized outputs.<br>
 The solution is optimized for Indian satellite data and is suitable for operational deployment.
 
 ## KEY CONTRIBUTIONS
 
-End-to-end two-stage pipeline (SR + Colorization).
-Trained on Landsat-9 Indian subcontinent data.
-Improves visual interpretability of IR images.
-Designed to run on consumer-grade GPU hardware.
+End-to-end two-stage pipeline (SR + Colorization).<br>
+Trained on Landsat-9 Indian subcontinent data.<br>
+Improves visual interpretability of IR images.<br>
+Designed to run on consumer-grade GPU hardware.<br>
       
 ## METHODOLOGY
 
