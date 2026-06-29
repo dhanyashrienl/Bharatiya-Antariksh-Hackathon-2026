@@ -5,16 +5,16 @@ PROBLEM STATEMENT 10 - IR Satellite Image Super-Resolution & Colorization Pipeli
 
 Infrared (IR) satellite images are crucial for night-time and all-weather observation.
 However, IR images are:
-      Low in spatial resolution
-      Monochrome in nature
-      Difficult to interpret visually.
+      Low in spatial resolution.<br>
+      Monochrome in nature.<br>
+      Difficult to interpret visually.<br>
 This limits their effectiveness in applications such as urban monitoring, disaster management, and defense surveillance.
 
 ## PROPOSED SOLUTION
 
-This project presents a unified deep learning pipeline that:
-      Enhances infrared satellite images using super-resolution
-      Converts enhanced IR images into realistic RGB colorized outputs
+This project presents a unified deep learning pipeline that:<br>
+      Enhances infrared satellite images using super-resolution.<br>
+      Converts enhanced IR images into realistic RGB colorized outputs.<br>
 The solution is optimized for Indian satellite data and is suitable for operational deployment.
 
 ## KEY CONTRIBUTIONS
@@ -25,21 +25,21 @@ The solution is optimized for Indian satellite data and is suitable for operatio
       
 ## METHODOLOGY
 
-Input infrared satellite image.
-Super-resolution network enhances spatial details.
-Colorization network predicts RGB information.
+Input infrared satellite image.<br>
+Super-resolution network enhances spatial details.<br>
+Colorization network predicts RGB information.<br>
 Final high-resolution(Pesudo) colorized output is generated.
 
 ## DATASET
 
-Source: Landsat 9 (Thermal Infrared & RGB bands).
-Region: Indian Subcontinent.
+Source: Landsat 9 (Thermal Infrared & RGB bands).<br>
+Region: Indian Subcontinent.<br>
 Processing: Image tiling, normalization, alignment.
 
 ## TECHNOLOGIES USED 
 
-Language: Python.
-Framework: PyTorch.
-Libraries: NumPy, OpenCV, Matplotlib.
-Platform: Kaggle.
-Version Control: GitHub.
+Language: Python.<br>
+Framework: PyTorch.<br>
+Libraries: NumPy, OpenCV, Matplotlib.<br>
+Platform: Kaggle.<br>
+Version Control: GitHub.<br>
