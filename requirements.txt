@@ -1,0 +1,16 @@
+# Core array / image I/O
+numpy
+tifffile
+opencv-python
+Pillow
+imagecodecs
+scikit-image          # create_patches.py: PSNR/SSIM metrics
+
+# Earth Engine data acquisition (download.py, gee_export.py)
+earthengine-api
+geemap                 # download.py: ee_export_image
+
+# Inference + FID evaluation (inference_stitch.py, compute_fid_stats.py)
+torch
+torchvision            # compute_fid_stats.py: inception_v3 backbone
+scipy                  # compute_fid_stats.py: scipy.linalg.sqrtm for FID
